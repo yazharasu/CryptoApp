@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import millify from 'millify';
 import { useParams } from 'react-router-dom';
 import HTMLReactParser from 'html-react-parser';
 import { Col, Row, Typography, Select } from 'antd';
-import { MoneyCollectOutlined, DollerCircleOutlined, CheckOutlined, FundOutlined, ExclamationCircleOutlined, StopOutlined, ThunderboltOutlined, TrophyOutlined, DollarCircleOutlined, NumberOutlined} from '@ant-design/icons';
+import { MoneyCollectOutlined, CheckOutlined, FundOutlined, ExclamationCircleOutlined, StopOutlined, ThunderboltOutlined, TrophyOutlined, DollarCircleOutlined, NumberOutlined} from '@ant-design/icons';
 import { useGetCryptoDetailsQuery, useGetCryptoHistoryQuery  } from '../Services/cryptoApi';
 import Loader from './Loader';
 import LineChart from './LineChart';
