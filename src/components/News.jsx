@@ -3,7 +3,7 @@ import {Select, Typography, Row, Col, Avatar, Card } from 'antd';
 import moment from 'moment';
 import { useGetCryptoNewsQuery } from '../Services/cryptoNewsApi';
 import { useGetCryptosQuery } from '../Services/cryptoApi';
-import { Cryptocurrencies } from './Cryptocurrencies';
+// import { Cryptocurrencies } from './Cryptocurrencies';
 import Loader from './Loader';
 
 const { Text, Title } = Typography; 
