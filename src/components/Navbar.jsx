@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import { Button, Menu, Typography, Avatar } from 'antd';
 import {Link} from 'react-router-dom';
-import { HomeOutlined, MoneyCollectOutlined, BulfOutlined, FundOutlined, MenuOutlined, BulbFilled, BulbOutlined } from '@ant-design/icons';
+import { HomeOutlined, MoneyCollectOutlined, FundOutlined, BulbOutlined } from '@ant-design/icons';
 import icon from "../images/icon.png";
 
 const Navbar = () => {
